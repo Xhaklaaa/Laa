@@ -1,0 +1,9 @@
+go 1.21.3
+
+use (
+	./cmd/umbrella-test-task
+	./internal/app/endpoint
+	./internal/app/mw
+	./internal/app/service
+	./internal/pkg/app
+)
